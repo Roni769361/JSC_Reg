@@ -7,6 +7,19 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.5;
+          background-color: #ffffff;
+          color: #000000;
+        }
+
+    </style>
+
 </head>
 <body>
     <div class="container">
@@ -22,7 +35,7 @@
                     </div>
 
                     <div class="col-auto">
-                        <label for="roll" class="col-form-label">Section</label>
+                        <label for="section" class="col-form-label">Section</label>
                       </div>
                       <div class="col-auto">
                         <select class="form-select" id="section" aria-label="Default select example">
@@ -37,12 +50,81 @@
 
                   <div class="row g-3 align-items-center"></div>
                   <div class="col-3">
-                    <label for="roll" class="col-form-label">Class Roll</label>
+                    <label for="fullName" class="col-form-label">Full Name</label>
                   </div>
                   <div class="col-9">
-                    <input type="number" id="rollNo" class="form-control" placeholder="Enter Class Roll">
+                    <input type="text" id="name" class="form-control" placeholder="Enter your full name">
                   </div>
-                </div>
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="fatherName" class="col-form-label">Father's Name</label>
+                  </div>
+                  <div class="col-9">
+                    <input type="text" id="fname" class="form-control" placeholder="Enter your Father's Name">
+                  </div>
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="motherName" class="col-form-label">Mother's Name</label>
+                  </div>
+                  <div class="col-9">
+                    <input type="text" id="mname" class="form-control" placeholder="Enter your Mother's Name">
+                  </div>
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="religion" class="col-form-label">Religion</label>
+                  </div>
+                  <div class="col-9">
+                    <select class="form-select" id="religion" aria-label="Default select example">
+                      <option selected>Religion</option>
+                      <option value="1">Islam</option>
+                      <option value="2">Hindus </option>
+                      <option value="3">Buddhists </option>
+                      <option value="4">Christians</option>
+                    </select>                  
+                  </div>
+
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="dateOfBirth" class="col-form-label">Date of Birth (Month/Day/Year)</label>
+                  </div>
+                  <div class="col-9">
+                    <input type="date" id="bdate" class="form-control" placeholder="Enter your Mother's Name">
+                  </div>
+
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="gender" class="col-form-label">Gender</label>
+                  </div>
+                  <div class="col-9">
+                    <select class="form-select" id="religion" aria-label="Default select example">
+                      <option selected>Gender</option>
+                      <option value="1">Male</option>
+                      <option value="2">Female </option>
+                    </select>                  
+                  </div>
+
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="homeDistrict" class="col-form-label">Home District</label>
+                  </div>
+                  <div class="col-9">
+                    <input type="text" id="dist" class="form-control" placeholder="Enter your Home District">
+                  </div>
+
+                  <div class="row g-3 align-items-center"></div>
+                  <div class="col-3">
+                    <label for="policeStation" class="col-form-label">Home Police Station</label>
+                  </div>
+                  <div class="col-9">
+                    <input type="text" id="policeStation" class="form-control" placeholder="Enter your Home Police Station Name">
+                  </div>
+              </div>
         </div>
     </div>
 
